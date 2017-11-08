@@ -9,7 +9,6 @@
             "email": "visionzk.tk@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
         "php": ">=5.5"
     },
