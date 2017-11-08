@@ -1,0 +1,22 @@
+{
+    "name": "visionzk/composer_test",
+    "description": "try make a package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "visionzk",
+            "email": "visionzk.tk@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Toor\\Tom\\": "src/Toor/Tom",
+            "Toor\\Jerry\\": "src/Toor/Jerry"
+        }
+    }
+}
